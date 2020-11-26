@@ -13,15 +13,18 @@ if __name__ == "__main__":
     db = sqlite_utils.Database(root / "problems.db")
     by_topic = {}
     index = ["<!-- index starts -->"]
-    for row in db["problems"].rows_where(order_by="created_utc desc limit 1000"):
-        index.append(
-            "* **{topic}** - [{title}]({url}) - *last updated at {date}*".format(
-                topic=row["topic"].capitalize(),
-                title=string.capwords(row["title"].replace("-", " ")),
-                date=row["updated"].split("T")[0],
-                url=row["url"]
+    for row in db["problems"].rows_where(order_by="created"):
+        by_topic.setdefault(row["topic"], []).append(row)
+    index = ["<!-- index starts -->"]
+    for topic, rows in by_topic.items():
+        index.append("## {}\n".format(topic.capitalize()))
+        for row in rows:
+            index.append(
+                "* [{title}]({url}) - {date}".format(
+                    date=row["created"].split("T")[0], **row
+                )
             )
-        )
+        index.append("")
     if index[-1] == "":
         index.pop()
     index.append("<!-- index ends -->")
