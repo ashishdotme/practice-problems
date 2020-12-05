@@ -11,8 +11,6 @@
 
 <p align="center">🎓 random practice problems</p>
 
-## Index
-
 <!-- index starts -->
 ## Tree
 

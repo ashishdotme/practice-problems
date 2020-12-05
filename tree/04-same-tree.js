@@ -1,11 +1,3 @@
-/**
- *
- * Ashish Patel
- * e: ashishsushilPatel@gmail.com
- * w: https://ashish.me
- *
- */
-
 function TreeNode(val, left, right) {
   this.val = val === undefined ? 0 : val
   this.left = left === undefined ? null : left

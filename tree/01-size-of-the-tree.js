@@ -28,3 +28,22 @@ var countNodes = function (root) {
 }
 
 console.log(countNodes(t1))
+
+// const print = () => {
+//   print('', this, false)
+// }
+
+const print = (n) => {
+  let prefix = ''
+  let isLeft = ''
+  const innerPrint = (prefix, n, isLeft) => {
+    if (n != null) {
+      innerPrint(prefix + '     ', n.right, false)
+      console.log(prefix + '|-- ' + n.val)
+      innerPrint(prefix + '     ', n.left, true)
+    }
+  }
+  innerPrint(prefix, n, isLeft)
+}
+
+console.log(print(t1))
