@@ -15,7 +15,9 @@
 ## Tree
 
 * [03-level-order-traversal.js](https://github.com/ashishdotme/practice-problems/blob/master/tree/03-level-order-traversal.js) - 2020-11-26
-* [04-same-tree.js](https://github.com/ashishdotme/practice-problems/blob/master/tree/04-same-tree.js) - 2020-11-26
 * [02-traversal.js](https://github.com/ashishdotme/practice-problems/blob/master/tree/02-traversal.js) - 2020-11-26
+* [04-same-tree.js](https://github.com/ashishdotme/practice-problems/blob/master/tree/04-same-tree.js) - 2020-11-26
 * [01-size-of-the-tree.js](https://github.com/ashishdotme/practice-problems/blob/master/tree/01-size-of-the-tree.js) - 2020-11-26
+* [05-mirror-of-tree.js](https://github.com/ashishdotme/practice-problems/blob/master/tree/05-mirror-of-tree.js) - 2020-12-05
+* [06-spiral-level-traversal.js](https://github.com/ashishdotme/practice-problems/blob/master/tree/06-spiral-level-traversal.js) - 2020-12-05
 <!-- index ends -->
