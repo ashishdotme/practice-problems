@@ -20,4 +20,12 @@
 * [01-size-of-the-tree.js](https://github.com/ashishdotme/practice-problems/blob/master/tree/01-size-of-the-tree.js) - 2020-11-26
 * [05-mirror-of-tree.js](https://github.com/ashishdotme/practice-problems/blob/master/tree/05-mirror-of-tree.js) - 2020-12-05
 * [06-spiral-level-traversal.js](https://github.com/ashishdotme/practice-problems/blob/master/tree/06-spiral-level-traversal.js) - 2020-12-05
+
+## Dp
+
+* [01-maximum-sub-array.js](https://github.com/ashishdotme/practice-problems/blob/master/dp/01-maximum-sub-array.js) - 2020-12-15
+* [02-longest-increasing-subsequence.js](https://github.com/ashishdotme/practice-problems/blob/master/dp/02-longest-increasing-subsequence.js) - 2020-12-15
+* [05-edit-distance.js](https://github.com/ashishdotme/practice-problems/blob/master/dp/05-edit-distance.js) - 2020-12-15
+* [04-bitonic-sequence.js](https://github.com/ashishdotme/practice-problems/blob/master/dp/04-bitonic-sequence.js) - 2020-12-15
+* [03-longest-decreasing-subsequence.js](https://github.com/ashishdotme/practice-problems/blob/master/dp/03-longest-decreasing-subsequence.js) - 2020-12-15
 <!-- index ends -->
